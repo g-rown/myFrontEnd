@@ -10,12 +10,19 @@ export default function Homepage ({navigation}) {
             <View style={styles.homeCard}>
                 <Text style={styles.header}>Homepage</Text>
 
-                <View>
+                <View style={{ marginBottom: 10 }}>
                     <Button 
                     style={styles.button} 
                     title='Register'
                     onPress={() => navigation.navigate('Register')} 
-                    
+                    />
+                </View>
+
+                <View>
+                    <Button 
+                    style={styles.button} 
+                    title='View User'
+                    onPress={() => navigation.navigate('UserList')} 
                     />
                 </View>
             </View>

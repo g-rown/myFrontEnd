@@ -28,8 +28,13 @@ export default function ReviewPage({route, navigation}) {
                 <Text style={styles.text}>Password: {formData.password}</Text>
                 <Text style={styles.text}>Gender: {formData.gender}</Text>
                 
-                <Button style={styles.button} title='Go back to edit' onPress={() => navigation.goBack()}/>
-                <Button style={styles.button} title='Submit' onPress={handleSubmit}/>
+                <View style={{ marginBottom: 10 }}>
+                    <Button style={styles.button}  title='Go back to edit' onPress={() => navigation.goBack()}/>
+                </View>
+
+                <View>
+                    <Button style={styles.button} title='Submit' onPress={handleSubmit}/>
+                </View>
             </View>
         </View>
 

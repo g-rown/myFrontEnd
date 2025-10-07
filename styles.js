@@ -14,7 +14,7 @@ export default StyleSheet.create({
         backgroundColor: '#fff',
         paddingVertical: 12, 
         paddingHorizontal: 100,
-        borderRadius: 8,
+        borderRadius: 20,
     },
 
     container: { 
@@ -44,7 +44,7 @@ export default StyleSheet.create({
         padding: 15,
         marginBottom: 10,
         borderRadius: 8,
-        width: '50%',
+        width: '60%',
         alignSelf: 'center',
     },
 
@@ -56,4 +56,5 @@ export default StyleSheet.create({
         width: '50%',
         alignSelf: 'center',
     },
+
 });
