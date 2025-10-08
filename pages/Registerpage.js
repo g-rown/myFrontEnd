@@ -1,8 +1,7 @@
-import {View, Text, Button} from 'react-native'
+import {View, Text, Button, TextInput} from 'react-native'
 import {useState} from 'react'
 
 import styles from "../styles"
-import { TextInput } from 'react-native-web'
 
 export default function RegisterPage({navigation}) {
 

@@ -39,6 +39,12 @@ export default StyleSheet.create({
         color: '#333',
     },
 
+    textListUSer: {
+        fontSize: 14,
+        marginBottom: 5,
+        color: '#333',
+    },
+
     card: {
         backgroundColor: "#fff",
         padding: 15,
