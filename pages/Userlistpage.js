@@ -9,7 +9,7 @@ export default function Userlistpage({navigation}) {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        axios.get('http://192.168.20.205:8000/registration/api/users/')
+        axios.get('http://192.168.30.216:8000/registration/api/users/')
         .then(res => {
             setUsers(res.data);
         })
@@ -33,7 +33,7 @@ export default function Userlistpage({navigation}) {
                     text: "Delete",
                     style: "destructive",
                     onPress: () => {
-                        axios.delete(`http://192.168.20.205:8000/registration/api/users/${id}/`)
+                        axios.delete(`http://192.168.30.216:8000/registration/api/users/${id}/`)
                         .then(() => {
                             console.error(err);
                             Alert.alert("Success", "User deleted successfully");
